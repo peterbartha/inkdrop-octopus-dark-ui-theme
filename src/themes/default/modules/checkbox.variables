@@ -11,7 +11,7 @@
 @labelDistance: 1.85714em; /* 26px @ 14/em */
 
 /* Checkbox */
-@checkboxBackground: @white;
+@checkboxBackground: @oct-background;
 @checkboxBorder: 1px solid @solidBorderColor;
 @checkboxBorderRadius: @3px;
 @checkboxTransition:
@@ -42,7 +42,7 @@
 @labelHoverColor: @hoveredTextColor;
 
 /* Pressed */
-@checkboxPressedBackground: @offWhite;
+@checkboxPressedBackground: @oct-darker;
 @checkboxPressedBorderColor: @selectedBorderColor;
 @checkboxPressedColor: @selectedTextColor;
 @labelPressedColor: @selectedTextColor;
@@ -103,7 +103,7 @@
 @radioActiveFocusBulletColor: @checkboxActiveFocusCheckColor;
 
 /* Slider & Toggle Handle */
-@handleBackground: @white @subtleGradient;
+@handleBackground: @oct-background @subtleGradient;
 @handleBoxShadow:
   @subtleShadow,
   0px 0px 0px 1px @borderColor inset
