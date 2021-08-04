@@ -16,6 +16,10 @@
   ],
   "author": "Peter Bartha <mail@peterbartha.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbartha/inkdrop-octopus-ui-theme"
+  },
   "devDependencies": {
     "semantic-ui": "^2.4.2"
   },
