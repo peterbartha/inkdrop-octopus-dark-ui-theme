@@ -93,7 +93,7 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: @oct-dark-blue-1;
+@focusedFormBorderColor: @oct-light-grey-1;
 
 /* Used on dropdowns, other larger blocks */
 @focusedFormMutedBorderColor: #96C8DA;
@@ -313,8 +313,8 @@
 --------------------*/
 
 @subtleTransparentBlack     : rgba(0, 0, 0, 0.03);
-@transparentBlack           : rgba(0, 0, 0, 0.05);
-@strongTransparentBlack     : rgba(0, 0, 0, 0.10);
+@transparentBlack           : rgba(0, 0, 0, 0.1);
+@strongTransparentBlack     : rgba(0, 0, 0, 0.1);
 @veryStrongTransparentBlack : rgba(0, 0, 0, 0.15);
 
 @subtleTransparentWhite     : rgba(255, 255, 255, 0.02);
@@ -431,13 +431,13 @@
 --------------------*/
 
 @darkTextColor               : @oct-text;
-@mutedTextColor              : @oct-dark-turquoise-3;
-@lightTextColor              : @oct-dark-grey-1;
+@mutedTextColor              : @oct-light-grey-2;
+@lightTextColor              : @oct-light-grey-1;
 
 @unselectedTextColor         : rgba(0, 0, 0, 0.4);
-@hoveredTextColor            : rgba(0, 0, 0, 0.8);
+@hoveredTextColor            : @oct-text;
 @pressedTextColor            : rgba(0, 0, 0, 0.9);
-@selectedTextColor           : rgba(0, 0, 0, 0.95);
+@selectedTextColor           : @oct-secondary;
 @disabledTextColor           : rgba(0, 0, 0, 0.2);
 
 @invertedTextColor           : rgba(255, 255, 255, 0.9);
@@ -468,7 +468,7 @@
 
 @circularRadius                : 500rem;
 
-@borderColor               : @oct-dark-blue-1;
+@borderColor               : @oct-secondary;
 @strongBorderColor         : rgba(34, 36, 38, 0.22);
 @internalBorderColor       : @oct-dark-blue-1;
 @selectedBorderColor       : rgba(34, 36, 38, 0.35);

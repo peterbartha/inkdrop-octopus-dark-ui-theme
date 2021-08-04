@@ -1,3 +1,13 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.button {
+    background: @oct-primary;
+    color: @oct-background;
+}
+
+.ui.button:hover {
+    background-color: @oct-light-turquoise-2;
+    color: @oct-background;
+}

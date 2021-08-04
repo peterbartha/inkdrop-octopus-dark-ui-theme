@@ -145,7 +145,7 @@
 @dropdownItemIconMargin: 0em 0.75em 0em 0em;
 
 @dropdownHoveredItemBackground: @transparentBlack;
-@dropdownHoveredItemColor: @selectedTextColor;
+@dropdownHoveredItemColor: @oct-light-grey-2;
 
 /* Dropdown Variations */
 @dropdownVerticalMenuBoxShadow: 0 1px 3px 0px rgba(0, 0, 0, 0.08);

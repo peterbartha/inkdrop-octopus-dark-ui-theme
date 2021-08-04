@@ -952,6 +952,7 @@
   --sidebar-sync-status-view-background: @sidebarSyncStatusViewBackground;
   --sidebar-sync-status-view-text-color: @sidebarSyncStatusViewTextColor;
   --sidebar-sync-status-view-detail-color: @sidebarSyncStatusViewDetailColor;
+  --sidebar-sync-status-view-border-top: @oct-border-2;
   --sidebar-scrollbar-width: @sidebarScrollbarWidth;
   --sidebar-scrollbar-track-background: @sidebarScrollbarTrackBackground;
   --sidebar-scrollbar-thumb-background: @sidebarScrollbarThumbBackground;
@@ -976,7 +977,7 @@
   --note-list-view-item-tag-color: @noteListViewItemTagColor;
   --note-list-view-item-active-background: @noteListViewItemActiveBackground;
   --note-list-view-item-active-color: @noteListViewItemActiveColor;
-  --note-list-view-item-active-date-color: @noteListViewItemActiveDateColor;
+  --note-list-view-item-active-date-color: @oct-primary;
   --note-list-view-item-active-tag-color: @noteListViewItemActiveTagColor;
   --note-list-view-item-focus-inner-shadow: @noteListViewItemFocusInnerShadow;
   --note-search-bar-background: @noteSearchBarBackground;
@@ -1016,4 +1017,37 @@
   --task-progress-view-background-color: @taskProgressViewBackgroundColor;
   --task-progress-view-foreground-color: @taskProgressViewForegroundColor;
   --task-progress-view-completed-color: @taskProgressViewCompletedColor;
+}
+
+/*.note-list-bar {
+  background-color: @oct-darker;
+}*/
+
+.editor-layout,
+.editor.editor-viewmode-sidebyside .mde-preview {
+  border-left: 1px solid @oct-border-1;
+}
+
+.sidebar-layout {
+  border-right: 1px solid #152e3c;
+}
+
+.sidebar-sync-status-view {
+  border-top: 1px solid var(--sidebar-sync-status-view-border-top);
+  background-color: var(--sidebar-sync-status-view-background);
+}
+
+.ui.secondary.vertical.pointing.menu {
+  border-right-color: @oct-dark-turquoise-2;
+}
+
+.ui.secondary.vertical.pointing.menu .active.item {
+  color: @oct-primary;
+}
+.ui.secondary.vertical.pointing.menu .active.item:hover {
+  color: @oct-text;
+}
+
+.note-list-bar-item {
+  cursor: pointer;
 }

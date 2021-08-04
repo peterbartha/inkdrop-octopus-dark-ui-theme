@@ -8,20 +8,20 @@
 @useCustomScrollbars: false;
 
 @primaryColor: @oct-primary;
-primaryColorFocus: @oct-turquoise;
+@primaryColorFocus: @oct-turquoise;
 @linkHoverColor: @primaryColor;
 
 
 /*-------------------
       Side Bar
 --------------------*/
-@sidebarBackground     : #171A21;
+@sidebarBackground     : @oct-darkest;
 @sidebarMenuItemActiveBackground: lighten(#242833, 10%);
 @sidebarMenuSectionColor: @invertedUnselectedTextColor;
 @sidebarMenuItemColor  : @invertedLightTextColor;
 @sidebarMenuActionColor : @invertedDisabledTextColor;
 @sidebarMenuActionHoverColor : @invertedLightTextColor;
-@sidebarSyncStatusViewBackground: @oct-darker;
+@sidebarSyncStatusViewBackground: @oct-darkest;
 @sidebarSyncStatusViewTextColor: @invertedMutedTextColor;
 @sidebarSyncStatusViewDetailColor: @invertedUnselectedTextColor;
 @sidebarScrollbarWidth: 6px;
@@ -39,7 +39,7 @@ primaryColorFocus: @oct-turquoise;
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: @oct-background;
+@noteListBarBackground: @oct-darker;
 @noteListBarPinnedSectionHeaderBackground: #e6e6e6;
 @noteListBarPinnedSectionHeaderBorderBottom: none;
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid #ccc;
@@ -47,11 +47,11 @@ primaryColorFocus: @oct-turquoise;
 @noteListViewItemSeparatorBorder: 1px solid @whiteDown;
 @noteListViewItemDateColor: @primaryColor;
 @noteListViewItemTagColor: @blueFocus;
-@noteListViewItemActiveBackground: @primaryColor;
+@noteListViewItemActiveBackground: @oct-secondary;
 @noteListViewItemActiveColor: @invertedTextColor;
 @noteListViewItemActiveDateColor: @invertedTextColor;
 @noteListViewItemActiveTagColor: @invertedTextColor;
-@noteListViewItemFocusInnerShadow: inset 0 0 4px rgba(0,0,0,0.8);
+@noteListViewItemFocusInnerShadow: inset 0 0 2px rgba(0,0,0,0.5);
 @noteSearchBarBackground: @noteListBarBackground;
 @noteSearchBarBorderBottom: rgba(255,255,255,0.8);
 @noteSearchBarInputBorder: none;
@@ -86,6 +86,6 @@ primaryColorFocus: @oct-turquoise;
 /*-------------------
   Task Progress View
 --------------------*/
-@taskProgressViewBackgroundColor: rgba(0, 0, 0, 0.3);
+@taskProgressViewBackgroundColor: @oct-secondary-hover;
 @taskProgressViewForegroundColor: rgba(255, 255, 255, 0.6);
-@taskProgressViewCompletedColor: rgb(50, 205, 50);
+@taskProgressViewCompletedColor: @oct-primary;
