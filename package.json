@@ -1,5 +1,5 @@
 {
-  "name": "octopus-ui",
+  "name": "octopus-dark-ui",
   "version": "0.1.0",
   "theme": "ui",
   "description": "Octopus UI theme",
@@ -14,7 +14,7 @@
     "inkdrop",
     "markdown"
   ],
-  "author": "Peter Bartha<mail@peterbartha.com>",
+  "author": "Peter Bartha <mail@peterbartha.com>",
   "license": "MIT",
   "devDependencies": {
     "semantic-ui": "^2.4.2"
