@@ -6,7 +6,7 @@ Inkdrop provides seamless data sync across devices and platforms without headach
 
 ## Screenshots
 
-TODO
+<img alt="Octopus theme for Inkdrop 1." src="https://user-images.githubusercontent.com/7854312/128943950-37595a50-5293-4d5e-ae47-f12235a72cc1.png">
 
 ## Install
 
