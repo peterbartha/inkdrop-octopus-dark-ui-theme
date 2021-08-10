@@ -261,7 +261,7 @@
 /* Colored */
 @brownTextColor: @invertedTextColor;
 @brownTextShadow: @invertedTextShadow;
-@redTextColor: @invertedTextColor;
+@redTextColor: @oct-text;
 @redTextShadow: @invertedTextShadow;
 @orangeTextColor: @invertedTextColor;
 @orangeTextShadow: @invertedTextShadow;
