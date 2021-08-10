@@ -127,7 +127,7 @@
 
 /* Selection List States */
 @selectionListBackground: transparent;
-@selectionListColor: @unselectedTextColor;
+@selectionListColor: @oct-light-grey-2;
 @selectionListHoverBackground: @subtleTransparentBlack;
 @selectionListHoverColor: @hoveredTextColor;
 @selectionListDownBackground: @transparentBlack;

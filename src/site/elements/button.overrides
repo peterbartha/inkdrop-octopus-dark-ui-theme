@@ -8,6 +8,6 @@
 }
 
 .ui.button:hover {
-    background-color: @oct-light-turquoise-2;
+    background-color: @oct-primary-hover;
     color: @oct-background;
 }

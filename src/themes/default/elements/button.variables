@@ -84,7 +84,7 @@
 --------------------*/
 
 /* Hovered */
-@hoverBackgroundColor: @oct-dark-turquoise-2;
+@hoverBackgroundColor: @oct-primary-hover;
 @hoverBackgroundImage: @backgroundImage;
 @hoverBoxShadow: @boxShadow;
 @hoverColor: @hoveredTextColor;
@@ -94,7 +94,7 @@
 @focusBackgroundColor: @hoverBackgroundColor;
 @focusBackgroundImage: '';
 @focusBoxShadow: '';
-@focusColor: @hoveredTextColor;
+@focusColor: @oct-background;
 @iconFocusOpacity: 0.85;
 
 /* Disabled */
@@ -102,7 +102,7 @@
 @disabledBoxShadow: none;
 
 /* Pressed Down */
-@downBackgroundColor: @oct-dark-turquoise-2;
+@downBackgroundColor: @oct-primary-hover;
 @downBackgroundImage: '';
 @downPressedShadow: none;
 @downBoxShadow:
@@ -205,7 +205,7 @@
 @basicTextTransform: none;
 
 /* Basic Hover */
-@basicHoverBackground: #FFFFFF;
+@basicHoverBackground: @oct-secondary;
 @basicHoverTextColor: @hoveredTextColor;
 @basicHoverBoxShadow:
   0px 0px 0px @basicBorderSize @selectedBorderColor inset,
@@ -217,7 +217,7 @@
 @basicFocusBoxShadow: @basicHoverBoxShadow;
 
 /* Basic Down */
-@basicDownBackground: #F8F8F8;
+@basicDownBackground: @oct-secondary;
 @basicDownTextColor: @pressedTextColor;
 @basicDownBoxShadow:
   0px 0px 0px @basicBorderSize rgba(0, 0, 0, 0.15) inset,

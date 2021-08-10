@@ -1042,7 +1042,7 @@
 }
 
 .ui.secondary.vertical.pointing.menu .active.item {
-  color: @oct-primary;
+  color: @oct-primary !important;
 }
 .ui.secondary.vertical.pointing.menu .active.item:hover {
   color: @oct-text;
@@ -1050,4 +1050,53 @@
 
 .note-list-bar-item {
   cursor: pointer;
+}
+
+.plugin-list-item-view .clickable:hover {
+  background-color: @oct-darker;
+}
+
+.plugin-uninstall-button.ui.button {
+  background: @oct-background;
+}
+
+.ui.checkbox input:hover ~ .box:before,
+.ui.checkbox input:hover ~ label:before {
+  border-color: @oct-primary;
+}
+
+.editor-floating-actions .background,
+.editor-header-more button {
+  background: @oct-darkest;
+}
+
+.list-bar.ui.selection.list .item {
+  color: @oct-light-grey-2;
+}
+
+.note-list-bar-pinned-section {
+  border-top: 4px solid @oct-border-1;
+  background: @oct-background;
+}
+
+.note-list-bar-pinned-section-footer {
+  border-bottom-color: @oct-border-1;
+}
+
+.note-tags-bar-item .ui.label {
+  font-weight: 600;
+}
+
+.sidebar-menu-item:hover .disclosure {
+    color: @oct-light-grey-2;
+    border-color: @oct-light-grey-2;
+}
+
+.sidebar-menu-item .disclosure:hover {
+    color: @oct-primary;
+    border-color: @oct-primary;
+}
+
+.sidebar-menu-item .disclosure > .disclosure-label {
+  font-size: 11px;
 }

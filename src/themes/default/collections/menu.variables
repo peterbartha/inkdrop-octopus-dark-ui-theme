@@ -306,7 +306,7 @@
 
 
 /* Tabular */
-@tabularBorderColor: @solidBorderColor;
+@tabularBorderColor: @oct-secondary;
 @tabularBackgroundColor: transparent;
 @tabularBackground: none @tabularBackgroundColor;
 @tabularBorderWidth: 1px;
@@ -323,8 +323,8 @@
 @tabularFluidOffset: 1px;
 @tabularFluidWidth: calc(100% + (@tabularFluidOffset * 2));
 
-@tabularActiveBackground: none @white;
-@tabularActiveColor: @selectedTextColor;
+@tabularActiveBackground: none @oct-background;
+@tabularActiveColor: @oct-primary;
 @tabularActiveBoxShadow: none;
 @tabularActiveWeight: @bold;
 

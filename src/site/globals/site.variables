@@ -8,7 +8,7 @@
 @useCustomScrollbars: false;
 
 @primaryColor: @oct-primary;
-@primaryColorFocus: @oct-turquoise;
+@primaryColorFocus: @oct-primary-hover;
 @linkHoverColor: @primaryColor;
 
 

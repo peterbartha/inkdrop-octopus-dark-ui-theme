@@ -29,7 +29,7 @@
 @headerVerticalPadding: 1.25rem;
 @headerHorizontalPadding: 1.5rem;
 @headerPadding: @headerVerticalPadding @headerHorizontalPadding;
-@headerBackground: @white;
+@headerBackground: @oct-background;
 @headerColor: @darkTextColor;
 @headerFontSize: @huge;
 @headerBoxShadow: none;
@@ -41,7 +41,7 @@
 @contentFontSize: 1em;
 @contentPadding: 1.5rem;
 @contentLineHeight: 1.4;
-@contentBackground: #FFFFFF;
+@contentBackground: @oct-background;
 
 /* Image / Description */
 @imageWidth: '';
@@ -55,7 +55,7 @@
 
 /* Modal Actions */
 @actionBorder: 1px solid @borderColor;
-@actionBackground: @offWhite;
+@actionBackground: @oct-darker;
 @actionPadding: 1rem 1rem;
 @actionAlign: right;
 

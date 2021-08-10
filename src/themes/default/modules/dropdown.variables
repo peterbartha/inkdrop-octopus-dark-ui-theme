@@ -54,7 +54,7 @@
 @itemBorder: none;
 @itemHeight: auto;
 @itemDivider: none;
-@itemColor: @textColor;
+@itemColor: @oct-light-grey-2;
 @itemVerticalPadding: @mini;
 @itemHorizontalPadding: @large;
 @itemPadding: @itemVerticalPadding @itemHorizontalPadding;
@@ -281,7 +281,7 @@
 --------------------*/
 
 /* Hovered */
-@hoveredItemBackground: @transparentBlack;
+@hoveredItemBackground: rgba(0, 0, 0, 0.1);
 @hoveredItemColor: @oct-light-grey-2;
 @hoveredZIndex: @menuZIndex + 2;
 

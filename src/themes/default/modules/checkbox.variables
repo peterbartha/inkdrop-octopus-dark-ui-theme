@@ -3,7 +3,7 @@
 *******************************/
 
 @checkboxSize: 17px;
-@checkboxColor: @textColor;
+@checkboxColor: @oct-background;
 @checkboxLineHeight: @checkboxSize;
 
 
@@ -12,7 +12,7 @@
 
 /* Checkbox */
 @checkboxBackground: @oct-background;
-@checkboxBorder: 1px solid @solidBorderColor;
+@checkboxBorder: 1px solid @oct-light-grey-1;
 @checkboxBorderRadius: @3px;
 @checkboxTransition:
   border @defaultDuration @defaultEasing,
@@ -38,32 +38,32 @@
 
 /* Hover */
 @checkboxHoverBackground: @checkboxBackground;
-@checkboxHoverBorderColor: @selectedBorderColor;
+@checkboxHoverBorderColor: @oct-primary-hover;
 @labelHoverColor: @hoveredTextColor;
 
 /* Pressed */
-@checkboxPressedBackground: @oct-darker;
-@checkboxPressedBorderColor: @selectedBorderColor;
-@checkboxPressedColor: @selectedTextColor;
-@labelPressedColor: @selectedTextColor;
+@checkboxPressedBackground: @oct-primary;
+@checkboxPressedBorderColor: @oct-primary-hover;
+@checkboxPressedColor: @oct-text;
+@labelPressedColor: @oct-text;
 
 /* Focus */
 @checkboxFocusBackground: @white;
 @checkboxFocusBorderColor: @focusedFormMutedBorderColor;
-@checkboxFocusCheckColor: @selectedTextColor;
-@labelFocusColor: @selectedTextColor;
+@checkboxFocusCheckColor: @oct-text;
+@labelFocusColor: @oct-text;
 
 /* Active */
-@labelActiveColor: @selectedTextColor;
-@checkboxActiveBackground: @white;
-@checkboxActiveBorderColor: @selectedBorderColor;
-@checkboxActiveCheckColor: @selectedTextColor;
+@labelActiveColor: @oct-text;
+@checkboxActiveBackground: @oct-background;
+@checkboxActiveBorderColor: @oct-primary-hover;
+@checkboxActiveCheckColor: @oct-background;
 @checkboxActiveCheckOpacity: 1;
 
 /* Active Focus */
 @checkboxActiveFocusBackground: @white;
 @checkboxActiveFocusBorderColor: @checkboxFocusBorderColor;
-@checkboxActiveFocusCheckColor: @selectedTextColor;
+@checkboxActiveFocusCheckColor: @oct-primary;
 
 /* Indeterminate */
 @checkboxIndeterminateBackground: @checkboxActiveBackground;
@@ -97,13 +97,13 @@
 @radioFocusBulletColor: @checkboxFocusCheckColor;
 
 @radioActiveBackground: @checkboxActiveBackground;
-@radioActiveBulletColor: @checkboxActiveCheckColor;
+@radioActiveBulletColor: @oct-primary;
 
 @radioActiveFocusBackground: @checkboxActiveFocusBackground;
 @radioActiveFocusBulletColor: @checkboxActiveFocusCheckColor;
 
 /* Slider & Toggle Handle */
-@handleBackground: @oct-background @subtleGradient;
+@handleBackground: @oct-secondary linear-gradient(transparent, @oct-background);
 @handleBoxShadow:
   @subtleShadow,
   0px 0px 0px 1px @borderColor inset
@@ -138,7 +138,7 @@
 @sliderHoverLabelColor: @hoveredTextColor;
 
 @sliderOnLineColor: @lightBlack;
-@sliderOnLabelColor: @selectedTextColor;
+@sliderOnLabelColor: @oct-text;
 
 @sliderOnFocusLineColor: @lightBlackFocus;
 @sliderOnFocusLabelColor: @sliderOnLabelColor;
@@ -178,12 +178,12 @@
 @toggleOffLabelColor: @checkboxColor;
 @toggleOffHandleBoxShadow: @handleBoxShadow;
 
-@toggleOnLabelColor: @selectedTextColor;
+@toggleOnLabelColor: @oct-text;
 @toggleOnLaneColor: @primaryColor;
 
 @toggleOnHandleBoxShadow: @handleBoxShadow;
 
-@toggleOnFocusLaneColor: @primaryColorFocus;
+@toggleOnFocusLaneColor: @oct-primary;
 @toggleOnFocusLabelColor: @toggleOnLabelColor;
 
 

@@ -138,7 +138,7 @@
        Links
 --------------------*/
 
-@linkColor           : #4183C4;
+@linkColor           : @oct-light-blue-1;
 @linkUnderline       : none;
 @linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
 @linkHoverUnderline  : @linkUnderline;
@@ -251,7 +251,7 @@
 
 /*---   Neutrals  ---*/
 @fullBlack        : @oct-background;
-@offWhite         : @oct-dark-turquoise-3;
+@offWhite         : @oct-secondary;
 @darkWhite        : @oct-light-grey-1;
 @midWhite         : @oct-dark-turquoise-1;
 @white            : @oct-dark-turquoise-2;
@@ -312,10 +312,10 @@
      Alpha Colors
 --------------------*/
 
-@subtleTransparentBlack     : rgba(0, 0, 0, 0.03);
-@transparentBlack           : rgba(0, 0, 0, 0.1);
+@subtleTransparentBlack     : rgba(0, 0, 0, 0.2);
+@transparentBlack           : @oct-light-grey-1;
 @strongTransparentBlack     : rgba(0, 0, 0, 0.1);
-@veryStrongTransparentBlack : rgba(0, 0, 0, 0.15);
+@veryStrongTransparentBlack : @oct-light-grey-1;
 
 @subtleTransparentWhite     : rgba(255, 255, 255, 0.02);
 @transparentWhite           : rgba(255, 255, 255, 0.08);

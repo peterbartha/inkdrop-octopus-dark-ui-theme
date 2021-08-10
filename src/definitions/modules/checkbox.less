@@ -165,8 +165,8 @@
 
 .ui.checkbox input:focus ~ .box:before,
 .ui.checkbox input:focus ~ label:before {
-  background: @checkboxFocusBackground;
-  border-color: @checkboxFocusBorderColor;
+  background: @checkboxActiveBackground;
+  border-color: @checkboxActiveBorderColor;
 }
 .ui.checkbox input:focus ~ .box:after,
 .ui.checkbox input:focus ~ label:after {
@@ -182,8 +182,8 @@
 
 .ui.checkbox input:checked ~ .box:before,
 .ui.checkbox input:checked ~ label:before {
-  background: @checkboxActiveBackground;
-  border-color: @checkboxActiveBorderColor;
+  background: @oct-primary;
+  border-color: @oct-primary-hover;
 }
 .ui.checkbox input:checked ~ .box:after,
 .ui.checkbox input:checked ~ label:after {
@@ -214,14 +214,14 @@
 .ui.checkbox input:not([type=radio]):indeterminate:focus ~ label:before,
 .ui.checkbox input:checked:focus ~ .box:before,
 .ui.checkbox input:checked:focus ~ label:before  {
-  background: @checkboxActiveFocusBackground;
-  border-color: @checkboxActiveFocusBorderColor;
+  background: @oct-primary;
+  border-color: @oct-primary-hover;
 }
 .ui.checkbox input:not([type=radio]):indeterminate:focus ~ .box:after,
 .ui.checkbox input:not([type=radio]):indeterminate:focus ~ label:after,
 .ui.checkbox input:checked:focus ~ .box:after,
 .ui.checkbox input:checked:focus ~ label:after {
-  color: @checkboxActiveFocusCheckColor;
+  color: @oct-background;
 }
 
 
