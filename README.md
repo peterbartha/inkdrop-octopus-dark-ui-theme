@@ -1,17 +1,22 @@
-# Octopus UI theme for [Inkdrop](https://inkdrop.app)
+# Octopus Dark UI theme for [Inkdrop](https://inkdrop.app)
 
-This repository contains a self-made theme for the Inkdrop app with my designed color scheme for better readability.
+This repository contains a self-made theme for the Inkdrop note-taking app. I picked the colors of the designed color scheme with great care for better readability and bear in mind what is accessible to people with colorblindness. The theme was inspired by ocean life.
 
 Inkdrop provides seamless data sync across devices and platforms without headache. As a note-taking app designed for developers, it is crucial to protect your data since you may store many sensitive pieces of information in it.
 
 ## Screenshots
 
-<img alt="Octopus theme for Inkdrop 1." src="https://user-images.githubusercontent.com/7854312/128943950-37595a50-5293-4d5e-ae47-f12235a72cc1.png">
+<table>
+  <tr>
+    <td><img width="600" alt="Octopus Dark UI theme for Inkdrop 1." src="https://user-images.githubusercontent.com/7854312/129085582-6ea8c57d-3394-4340-9bca-3940890cc6c7.png"></td>
+    <td><img width="600" alt="Octopus Dark UI theme for Inkdrop 2." src="https://user-images.githubusercontent.com/7854312/129085997-08c4bc80-dbc3-4e01-a7d7-936968f8c35a.png"></td>
+  </tr>
+</table>
 
 ## Install
 
 ```
-ipm install octopus-ui
+ipm install octopus-dark-ui
 ```
 
 ## Note
@@ -29,18 +34,18 @@ You can use different themes for different parts of the application.
 Instal the other theme parts with the following commands:
 
 ```
-ipm install octopus-syntax
-ipm install octopus-preview
+ipm install octopus-dark-syntax
+ipm install octopus-dark-preview
 ```
 
 ## Related
 
-- [peterbartha/inkdrop-octopus-syntax-theme](https://github.com/peterbartha/inkdrop-octopus-syntax-theme)
-- [peterbartha/inkdrop-octopus-preview-theme](https://github.com/peterbartha/inkdrop-octopus-preview-theme)
+- [peterbartha/inkdrop-octopus-dark-syntax-theme](https://github.com/peterbartha/inkdrop-octopus-dark-syntax-theme)
+- [peterbartha/inkdrop-octopus-dark-preview-theme](https://github.com/peterbartha/inkdrop-octopus-dark-preview-theme)
 
 ## Changelog
 
-See [the GitHub releases](https://github.com/peterbartha/inkdrop-octopus-ui-theme/releases) for an overview of what changed in each update.
+See [the GitHub releases](https://github.com/peterbartha/inkdrop-octopus-dark-ui-theme/releases) for an overview of what changed in each update.
 
 ## License
 
