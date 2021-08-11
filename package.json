@@ -3,6 +3,15 @@
   "version": "0.2.0",
   "theme": "ui",
   "description": "Octopus Dark UI theme",
+  "keywords": [
+    "theme",
+    "markdown",
+    "note-taking",
+    "end-to-end-encryption",
+    "inkdrop",
+    "inkdrop-ui",
+    "inkdrop-plugin"
+  ],
   "styleSheets": [
     "theme.min.css"
   ],
@@ -10,23 +19,19 @@
     "run": "gulp",
     "build": "gulp build"
   },
-  "keywords": [
-    "inkdrop",
-    "markdown"
-  ],
   "author": "Peter Bartha <mail@peterbartha.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peterbartha/inkdrop-octopus-dark-ui-theme"
   },
-  "devDependencies": {
-    "semantic-ui": "^2.4.2"
-  },
   "browserslist": [
     "Electron 7.3.2"
   ],
   "engines": {
     "inkdrop": "^5.x"
+  },
+  "devDependencies": {
+    "semantic-ui": "^2.4.2"
   }
 }
