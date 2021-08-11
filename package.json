@@ -2,7 +2,7 @@
   "name": "octopus-dark-ui",
   "version": "0.2.0",
   "theme": "ui",
-  "description": "Octopus UI theme",
+  "description": "Octopus Dark UI theme",
   "styleSheets": [
     "theme.min.css"
   ],
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peterbartha/inkdrop-octopus-ui-theme"
+    "url": "git+https://github.com/peterbartha/inkdrop-octopus-dark-ui-theme"
   },
   "devDependencies": {
     "semantic-ui": "^2.4.2"
