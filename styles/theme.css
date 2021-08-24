@@ -1631,6 +1631,26 @@ input::selection {
 .sidebar-menu-item .disclosure > .disclosure-label {
   font-size: 11px;
 }
+
+.note-tags-bar-dropdown-menu.ui.vertical.menu {
+  border-color: #2c4f5b;
+}
+
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item,
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item.active {
+  cursor: pointer;
+  color: #b6ddd8;
+}
+
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item:before {
+  content: none;
+}
+
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item:hover,
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item.active:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+}
 /*!
  * # Semantic UI 2.4.2 - Button
  * http://github.com/semantic-org/semantic-ui/
@@ -24225,7 +24245,7 @@ Floated Menu / Item
 .ui.vertical.menu {
   display: block;
   flex-direction: column;
-  background: #FFFFFF;
+  background: #112a38;
   box-shadow: 0px 1px 2px 0 #2c4f5b;
 }
 
