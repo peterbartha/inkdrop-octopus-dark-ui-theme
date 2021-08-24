@@ -1088,15 +1088,35 @@
 }
 
 .sidebar-menu-item:hover .disclosure {
-    color: @oct-light-grey-2;
-    border-color: @oct-light-grey-2;
+  color: @oct-light-grey-2;
+  border-color: @oct-light-grey-2;
 }
 
 .sidebar-menu-item .disclosure:hover {
-    color: @oct-primary;
-    border-color: @oct-primary;
+  color: @oct-primary;
+  border-color: @oct-primary;
 }
 
 .sidebar-menu-item .disclosure > .disclosure-label {
   font-size: 11px;
+}
+
+.note-tags-bar-dropdown-menu.ui.vertical.menu {
+  border-color: @oct-secondary;
+}
+
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item,
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item.active {
+  cursor: pointer;
+  color: @oct-light-grey-2;
+}
+
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item:before {
+  content: none;
+}
+
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item:hover,
+.note-tags-bar-dropdown-menu.ui.vertical.menu .item.active:hover {
+    color: @oct-text;
+    background: rgba(0,0,0,.1);
 }
